@@ -432,7 +432,7 @@ bot.start(async (ctx) => {
     await ctx.replyWithMarkdown(ozelMesaj(ctx.update.message.chat.id < 0),{
         reply_markup:{
             inline_keyboard:[
-                [{text:'Botu Grupa Ekle ✅', url:`http://t.me/azoyunbot?startgroup=true`}],
+                [{text:'Botu Grupa Ekle ✅', url:`http://t.me/RokstarGameBot?startgroup=true`}],
                 [{text:'Resmi Kanalımız 📣', url:`t.me/VusalinBlogu`},{text:'VİP Gruplar 💎', callback_data:'vip'}]
             ]
         }
@@ -441,11 +441,11 @@ bot.start(async (ctx) => {
 
 bot.action('start', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`*Salam👋🏻 \n 𝙲𝚁𝙰𝚉𝚈 𝚃𝙴𝚇𝙼𝙸𝙽 𝙶𝙰𝙼𝙴 Təxmin Oyunu Vaxtınızı Əyləncəli hala gətirimək üçün\nTelegram oyun botuyum🤖* \n *Əmirlərimə Bax /help*"*
+    ctx.replyWithMarkdown(`*Salam👋🏻 \n Rokstar Game Təxmin Oyunu Vaxtınızı Əyləncəli hala gətirimək üçün\nTelegram oyun botuyum🤖* \n *Əmirlərimə Bax /help*"*
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'Botu Grupa Ekle ✅', url:`http://t.me/CrazyTexminGameBot?startgroup=true`}],
+                [{text:'Botu Grupa Ekle ✅', url:`http://t.me/RokstarGameBot?startgroup=true`}],
                 [{text:'Rəsmi Kanalımız 📣', url:`https://t.me/crazy_resmi`},{text:'VİP Gruplar 💎', callback_data:'vip'}]
             ]
         }
@@ -473,8 +473,8 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*🇦🇿 VİP Gruplar 🏆*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'https://t.me/CrazyTeam_s'}],
-                [{text:'2) Qrup ', url:'https://t.me/Crazymmc'}],
+                [{text:'1) Qrup ', url:'https://t.me/RokstarGameBot'}],
+                [{text:'2) Qrup ', url:'https://t.me/RokstarGameBot'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -489,8 +489,8 @@ bot.action('TR', ctx=>{
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Grub', url:'https://t.me/CrazyTeam_s'}],
-                [{text:'2) Grub', url:'https://t.me/Crazymmc'}],
+                [{text:'1) Grub', url:'https://t.me/RokstarGameBot'}],
+                [{text:'2) Grub', url:'https://t.me/RokstarGameBot'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
